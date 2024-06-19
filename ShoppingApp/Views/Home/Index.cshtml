@@ -1,0 +1,134 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+
+@model ShoppingApp.Models.DTOs.ItemDisplayModel
+@{
+
+}
+<div class="my-2">
+    <form asp-action="Index" class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-12">
+            <label class="visually-hidden" for="categoryId">Category</label>
+            <select class="form-select" id="categoryId" name="categoryId">
+                <option selected>Category</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option selected="@(category.Id == Model.CategoryId)" value="@category.Id">@category.CategoryName</option>
+                }
+            </select>
+            <label class="visually-hidden" for="brandId">Brand</label>
+            <select class="form-select" id="brandId" name="brandId">
+                <option selected>Brand</option>
+                @foreach (var brand in Model.Brands)
+                {
+                    <option selected="@(brand.Id == Model.BrandId)" value="@brand.Id">@brand.BrandName</option>
+                }
+            </select>
+            <label class="visually-hidden" for="developerId">Developer</label>
+            <select class="form-select" id="developerId" name="developerId">
+                <option selected>Developer</option>
+                @foreach (var developer in Model.Developers)
+                {
+                    <option selected="@(developer.Id == Model.DeveloperId)" value="@developer.Id">@developer.DeveloperName</option>
+                }
+            </select>
+            <label class="visually-hidden" for="platformId">Platform</label>
+            <select class="form-select" id="platformId" name="platformId">
+                <option selected>Platform</option>
+                @foreach (var platform in Model.Platforms)
+                {
+                    <option selected="@(platform.Id == Model.PlatformId)" value="@platform.Id">@platform.PlatformName</option>
+                }
+            </select>
+        </div>
+
+        <div class="col-12">
+            <label class="visually-hidden" for="sterm">Search by title</label>
+            <div class="input-group">
+                <div class="input-group-text"></div>
+                <input type="text" class="form-control" value="@Model.SearchTerm" id="searchTerm" name="searchTerm" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a href="/Home/Index" class="btn btn-dark">Reset</a>
+        </div>
+    </form>
+</div>
+
+<div class="w-100 mt-4 d-flex flex-wrap ">
+    
+    @foreach (var item in Model.Items)
+    {
+        
+        <div class="card mx-3 mb-4" style="width: 16rem; padding: 12px;">
+            @if (string.IsNullOrEmpty(item.Image))
+            {
+
+
+                <a asp-action="ViewItem" asp-route-itemId="@item.Id">
+                    <img style="width:100%;height:180px" src="/images/NoImage.webp" class="card-img-top" alt="..."></a>
+
+            }
+            else
+            {
+                <a asp-action="ViewItem" asp-route-itemId="@item.Id">
+                    <img style="width:100%;height:180px" src="@item.Image" class="card-img-top" alt="...">
+                </a>
+             
+            }
+            <div class="card-body">
+                <a asp-action="ViewItem" asp-route-itemId="@item.Id" class="text-body-secondary fw-bolder" style="text-decoration: none;"><h5 class="card-title">@item.ItemName</h5></a>
+                <p class="card-text">
+                    
+                    @if (!string.IsNullOrEmpty(item.BrandName))
+                    {
+                        <b>Brand: </b> @item.BrandName <br />
+                    }
+                    @if (!string.IsNullOrEmpty(item.DeveloperName))
+                    {
+                        <b>Developer: </b> @item.DeveloperName <br />
+                    }
+                
+                    @if (!string.IsNullOrEmpty(item.CategoryName))
+                    {
+                        <b>Type: </b> @item.CategoryName <br />
+                    }
+                    @if (!string.IsNullOrEmpty(item.PlatformName))
+                    {
+                        <b>Platform: </b> @item.PlatformName <br />
+                    }
+                
+                    
+                    
+                    <b>Price: </b>$@item.Price 
+                </p>
+                <button type="button" onclick="add(@item.Id)" class="btn btn-primary">Add to cart</button>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts{
+    <script>
+        async function add(itemId) {
+            
+                try {
+                    var response = await fetch(`/Cart/AddItem?itemId=${itemId}`);
+                    if (response.status == 200) {
+                        var result = await response.json();
+                        var cartCountEl = document.getElementById("cartCount");
+                        cartCountEl.innerHTML = result;
+                        
+                    }
+                }
+                catch (err) {
+                    console.log(err);
+                    window.location = "/Identity/Account/Login";
+                }
+            
+        }
+        
+    </script>
+}

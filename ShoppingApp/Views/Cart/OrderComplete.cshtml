@@ -1,0 +1,96 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ShoppingApp.Models.DTOs.OrderCompleteDisplayModel;
+@{
+
+}
+<div class="mpy-2">
+    <h3>Payment Successful</h3>
+
+    <br />
+
+    <h5>Order Details:</h5>
+    
+    <table class="table table-striped">
+        <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Unit Price</th>
+            <th>Total Price</th>
+           
+        </tr>
+        @foreach (var orderItem in Model.OrderItems)
+        {
+            <tr>
+                <td>
+                    <a href="/Home/ViewItem?itemId=@orderItem.ItemId" class="text-body-secondary fw-bolder" style="text-decoration: none;">
+                        @orderItem.Item.ItemName
+                    </a>
+                </td>
+                <td>
+                    @if (string.IsNullOrEmpty(orderItem.Item.Image))
+                    {
+                        <a href="/Home/ViewItem?itemId=@orderItem.ItemId">
+                            <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="/Home/ViewItem?itemId=@orderItem.ItemId">
+                            <img src="@orderItem.Item.Image" style="width:80px;height:100px" />
+                        </a>
+                    }
+                </td> 
+                <td>@orderItem.UnitPrice X @orderItem.Quantity</td>
+                <td>$@(orderItem.UnitPrice * orderItem.Quantity)</td>
+                
+            </tr>
+        }
+    </table>
+
+    @if (Model.StoreLocation != "")
+    {
+        <p>Store Location: @Model.StoreLocation</p>
+    }
+    
+
+    <br />
+
+    @if(Model.Order.OrderTypeId == 2)
+    {
+        <p>Delivery Fee: $50</p>
+        <br />
+    }
+
+    <table class="table table-striped">
+        <tr>
+            <th>Total</th>
+            <th>Transaction Date</th>
+            <th>Customer Card Number</th>
+            <th>Customer Phone Number</th> 
+            @if (Model.Order.OrderTypeId == 1)
+            {
+                <th>Billing Address</th>
+            }
+            else
+            {
+                <th>Delivery Address</th>
+            }
+            <th>Zip Code</th>
+        </tr>
+
+
+        <tr>
+            <td>$@Model.Transaction.Amount</td>
+            <td>@Model.Transaction.DateAndTime.ToString();</td>
+            <td>@Model.Transaction.CardNumber</td>
+            <td>@Model.Transaction.CustomerPhone</td>
+            <td>@Model.Transaction.CustomerAddress</td>
+            <td>@Model.Transaction.ZipCode</td>
+        </tr>
+
+    </table>
+
+
+
+
+</div>

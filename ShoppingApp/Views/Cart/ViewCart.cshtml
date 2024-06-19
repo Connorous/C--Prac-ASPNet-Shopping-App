@@ -1,0 +1,182 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ShoppingApp.Models.DTOs.CartPageDisplayModel
+<div style="width:90%;margin:auto" class="mt-2">
+    @if (Model.Cart != null && Model.Cart.CartItems != null && Model.Cart.CartItems.Count > 0)
+    {
+        <h5>Cart</h5>
+
+        <table class="table table-striped">
+            <tr>
+                <th>Item</th>
+                <th>Image</th>
+                <th>Category</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model.Cart.CartItems)
+            {
+                <tr>
+                    <td>
+                        <a href="/Home/ViewItem?itemId=@item.ItemId" class="text-body-secondary fw-bolder" style="text-decoration: none;">
+                            @item.Item.ItemName
+                        </a>
+                    </td>
+                    <td>
+                        @if (string.IsNullOrEmpty(item.Item.Image))
+                        {
+                            <a href="/Home/ViewItem?itemId=@item.ItemId">
+                                <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="/Home/ViewItem?itemId=@item.ItemId">
+                                <img src="@item.Item.Image" style="width:80px;height:100px" />
+                            </a>
+                        }
+                    </td>
+                    <td>@item.Item.Category.CategoryName</td>
+                    <td>@item.Item.Price X @item.Quantity</td>
+                    <td>$@(item.Item.Price * item.Quantity)</td>
+                    <td>
+                        <a class="btn btn-info" href="/Cart/AddItem?itemId=@item.ItemId&&redirect=1">+</a>
+                        <a class="btn btn-info" href="/cart/removeitem?itemId=@item.ItemId">-</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+
+
+        <div class="my-2">
+            <h5>Total: </h5>
+            $@(Model.Cart.CartItems.Select(item => item.Item.Price * item.Quantity).Sum())
+        </div>
+
+        <br />
+
+        <form asp-action="Checkout">
+
+            <label for="orderTypeId">Pickup or Delivery</label>
+            <select class="form-select" onchange="show()" id="orderTypeId" name="orderTypeId" required>
+                <option selected>Select an Order Option</option>
+                @foreach (var orderType in Model.OrdersTypes)
+                {
+                    <option selected="@(orderType.Id == Model.OrderTypeId)" value="@orderType.Id">@orderType.Type</option>
+                }
+            </select>
+
+            <br />
+
+            <div id="deliveryFee" name="deliveryFee">
+                <p>There is a $50 delivery fee.</p>
+
+                <br />
+                
+            </div>
+
+            <div id="storeSelect" name="storeSelect">
+            @if (Model.Stores.Count() != 0)
+            {
+                <select class="form-select" id="storeId" name="storeId" required>
+                    <option selected>Select a Store Location</option>
+                    @foreach (var store in Model.Stores)
+                    {
+                        <option selected="@(store.Id == Model.StoreId)" value="@store.Id">@store.Location</option>
+                    }
+                </select>
+                    <br />
+                }
+
+                else
+                {
+                    @if(Model.Cart.CartItems.Count > 1)
+                    {
+                        <p>No Stores have the products in stock</p>
+                        <p>Select delivery instead</p>
+                        <br />
+                    }
+                    else
+                    {
+                        <p>No Stores have the product in stock</p>
+                        <p>Select delivery instead</p>
+                        <br />
+                    }
+                    
+            }
+            </div>
+
+            
+
+            <br />
+
+            <label for="payTypeId">PayType</label>
+            <select class="form-select" id="payTypeId" name="payTypeId" required>
+                <option selected>Select a Payment Option</option>
+                @foreach (var payType in Model.PayTypes)
+                {
+                    @if (payType.Id == 2)
+                    {
+                        <option selected="@(payType.Id == Model.PayTypeId)" value="@payType.Id" id="payAtStoreOption" name="payAtStoreOption">@payType.PayTypeName</option>
+                    }
+                    else
+                    {
+                        <option selected="@(payType.Id == Model.PayTypeId)" value="@payType.Id">@payType.PayTypeName</option>
+                    }
+                    
+                }
+            </select>
+
+            <br />
+
+            <div class="my-2">
+                <button type="submit" class="btn btn-primary">Checkout</button>
+            </div>
+
+        </form>
+
+        <br />
+
+    }
+    else
+    {
+        <h1>Cart is empty</h1>
+    }
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        var deliveryFee = document.querySelector("#deliveryFee");
+        var orderTypeSelector = document.querySelector("#orderTypeId");
+        deliveryFee.style.display = "none";
+
+
+        var storeSelector = document.querySelector("#storeSelect");
+        storeSelector.style.display = "none";
+
+
+        var payAtStoreOption = document.querySelector("#payAtStoreOption");
+        payAtStoreOption.style.display = "none";
+
+        function show() {
+            if (orderTypeSelector.value == "2") {
+                storeSelector.style.display = "none";
+                payAtStoreOption.style.display = "none";
+                deliveryFee.style.display = "block";
+            }
+            else if (orderTypeSelector.value == "1") {
+                storeSelector.style.display = "block";
+                payAtStoreOption.style.display = "block";
+                deliveryFee.style.display = "none";
+            }
+            else {
+                storeSelector.style.display = "none";
+                deliveryFee.style.display = "none";
+                payAtStoreOption.style.display = "none";
+            }
+        }
+        
+    </script>
+}

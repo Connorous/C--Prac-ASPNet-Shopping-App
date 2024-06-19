@@ -1,0 +1,157 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ShoppingApp.Models.DTOs.OrderDisplayModel
+@{
+
+}
+<br />
+
+<div class="d-flex" style="justify-content: space-between">
+    <h1>Orders</h1> 
+
+    <button href="/Identity/Account/Manage" class="btn btn-info" style="height: 35px; align-self: center; align-content: center;"><a asp-area="Identity" asp-page="/Account/Manage/Index" style="text-decoration: none;" class="text-body-primary fw-bolder nav-link active">Back</a></button>
+</div>
+
+<br />
+
+<div class="d-flex bg-secondary">
+
+    <table class="table">
+        <tr class="table-primary">
+            <th>Order</th>
+            <th>Date of Order</th>
+            <th>Order Items</th>
+            <th></th>
+        </tr>
+        @foreach (Order order in Model.Orders)
+        {
+            <tr>
+                <td>
+                    #@order.Id
+                    <br />
+                    <p>Type</p>
+                    @order.OrderType.Type
+
+                    @if(order.OrderTypeId == 1)
+                    {
+                        <p>From @Model.Stores.FirstOrDefault(store => store.Id == order.StoreId).Location</p>
+                    }
+                </td>
+                <td>
+                    @order.CreateDate.ToString();
+                </td>
+                <td>
+                    <table class="table">
+                        <tr class="table-secondary">
+                            <th>Item</th>
+                            <th>Image</th>
+                            <th>Category</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                            
+                        </tr>
+                
+                @foreach (OrderItem orderItem in order.OrderItems)
+                {
+                    <tr>
+                        <td>
+                                    <a href="/Home/ViewItem?itemId=@orderItem.ItemId" class="text-body-secondary fw-bolder" style="text-decoration: none;">
+                                        @orderItem.Item.ItemName
+                            </a>
+                        </td>
+
+
+                        <td>
+                            @if (string.IsNullOrEmpty(orderItem.Item.Image))
+                            {
+                                <a href="/Home/ViewItem?itemId=@orderItem.ItemId">
+                                    <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="/Home/ViewItem?itemId=@orderItem.ItemId">
+                                    <img src="@orderItem.Item.Image" style="width:80px;height:100px" />
+                                </a>
+                            }
+                        </td>
+
+                        <td>@orderItem.Item.Category.CategoryName</td>
+
+                        <td>@orderItem.Item.Price X @orderItem.Quantity</td>
+
+                        <td>$@(orderItem.Item.Price * orderItem.Quantity)</td>
+
+                    
+                    </tr>
+                    
+                }
+                    </table>
+
+                    <br />
+                </td>
+
+                <td>
+                    <div class="my-2">
+
+                        @if(order.OrderTypeId == 2)
+                        {
+                            <p>$50 Delivery Fee</p>
+
+                            <h5>Total: $@(order.OrderItems.Select(orderItem => orderItem.Item.Price * orderItem.Quantity).Sum() + 50)</h5>
+                        }
+
+                        else
+                        {
+                            <h5>Total: $@(order.OrderItems.Select(orderItem => orderItem.Item.Price * orderItem.Quantity).Sum())</h5>
+                        }
+
+                        <br />
+
+                        @if(order.isPayed)
+                        {
+                            <h5>Has been paid</h5>
+                        }
+
+                        else
+                        {
+                            <h5>Payment Required</h5>
+
+                            @if(order.OrderTypeId == 1)
+                            {
+                                <h6>Pay in Store or Pay Now</h6>
+                            }
+                            <button onclick="pay(@order.Id, @(order.OrderItems.Select(orderItem => orderItem.Item.Price * orderItem.Quantity).Sum()))" class="btn btn-info">PayNow</button>
+                        }
+                    </div>
+                </td>
+            </tr>
+
+
+        }
+
+    </table>
+
+
+
+    
+
+    <br />
+    
+</div>
+
+@section Scripts{
+    <script>
+        async function pay(orderId, totalCost) {
+            
+                try {
+                window.location = `/Cart/PaymentDetails?orderId=${orderId}&totalCost=${totalCost}`;
+                }
+                catch (err) {
+                    console.log(err);
+                    window.location = "/Identity/Account/Login";
+                }
+            
+        }
+        
+    </script>
+}

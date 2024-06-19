@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShoppingApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShoppingApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\ArmouredCore6.jpg",
+      "PackagePath": "staticwebassets\\images\\ArmouredCore6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\DnD Handbook.png",
+      "PackagePath": "staticwebassets\\images\\DnD Handbook.png"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\Forespoken.jpg",
+      "PackagePath": "staticwebassets\\images\\Forespoken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\HorizonZeroDawn.jpg",
+      "PackagePath": "staticwebassets\\images\\HorizonZeroDawn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\Knack.jpg",
+      "PackagePath": "staticwebassets\\images\\Knack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\MTG Draconic Destruction.webp",
+      "PackagePath": "staticwebassets\\images\\MTG Draconic Destruction.webp"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\Millenium Falcon.jpg",
+      "PackagePath": "staticwebassets\\images\\Millenium Falcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\NoImage.webp",
+      "PackagePath": "staticwebassets\\images\\NoImage.webp"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\PS5.jpg",
+      "PackagePath": "staticwebassets\\images\\PS5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\Pokemon Kanto Shirt.jpg",
+      "PackagePath": "staticwebassets\\images\\Pokemon Kanto Shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\XboxX.jpg",
+      "PackagePath": "staticwebassets\\images\\XboxX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\pokeball.webp",
+      "PackagePath": "staticwebassets\\images\\pokeball.webp"
+    },
+    {
+      "Id": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\wwwroot\\images\\pokemon silver tempest booster.jpg",
+      "PackagePath": "staticwebassets\\images\\pokemon silver tempest booster.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShoppingApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShoppingApp.props",
+      "PackagePath": "build\\ShoppingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoppingApp.props",
+      "PackagePath": "buildMultiTargeting\\ShoppingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShoppingApp.props",
+      "PackagePath": "buildTransitive\\ShoppingApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

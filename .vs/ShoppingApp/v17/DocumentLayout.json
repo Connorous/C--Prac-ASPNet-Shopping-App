@@ -1,0 +1,1072 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\cart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\home\\viewitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\home\\viewitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\viewitemdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\viewitemdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\itemdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\itemdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\cart\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\cart\\ordercomplete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\cart\\paymentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\cart\\paymentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\data\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\data\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\orderdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\orderdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\ordercompletedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\ordercompletedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\paymentdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\paymentdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240403053705_initial-migration15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240403053705_initial-migration15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240403045503_initial-migration14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240403045503_initial-migration14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\storeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\storeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\dtos\\cartpagedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\dtos\\cartpagedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240403025044_initial-migration12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240403025044_initial-migration12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240403021817_initial-migration11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240403021817_initial-migration11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\paytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\paytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\ordertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240330191041_initial-migration8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240330191041_initial-migration8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240330094040_initial-migration7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240330094040_initial-migration7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\repositories\\repoutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\repositories\\repoutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240328072826_initial-migration3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240328072826_initial-migration3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\repositories\\irepoutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\repositories\\irepoutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240328070848_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240328070848_initial-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240328094003_initial-migration4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240328094003_initial-migration4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240328071203_initial-migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240328071203_initial-migration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\developer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240331004507_initial-migration9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240331004507_initial-migration9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240330055107_initial-migration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240330055107_initial-migration6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240328165104_initial-migration5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240328165104_initial-migration5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|c:\\users\\conno\\documents\\c# prac\\shoppapp2.0\\shoppingapp\\shoppingapp\\migrations\\20240403012700_initial-migration10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13862D40-654F-4A7B-97E6-4D908FFC661F}|ShoppingApp\\ShoppingApp.csproj|solutionrelative:shoppingapp\\migrations\\20240403012700_initial-migration10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShoppingApp\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABcCAAAAAAAAAAAwwCwCAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T10:50:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\ViewItem.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Home\\ViewItem.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\ViewItem.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Home\\ViewItem.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIAwwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T05:09:54.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ShoppingApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAASwKEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:55:06.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Cart\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\ViewCart.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Cart\\ViewCart.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAUwGcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T07:32:49.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\ItemDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\ItemDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\ItemDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\ItemDisplayModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:39:13.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Brand.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:48:47.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Home\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\MyOrders.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Home\\MyOrders.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T02:53:36.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewItemDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\ViewItemDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\ViewItemDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\ViewItemDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\ViewItemDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T04:25:27.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderComplete.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\OrderComplete.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Cart\\OrderComplete.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\OrderComplete.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Cart\\OrderComplete.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T09:08:09.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\PaymentDetails.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Cart\\PaymentDetails.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\PaymentDetails.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Cart\\PaymentDetails.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T08:24:26.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T09:40:38.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T08:14:30.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\OrderDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\OrderDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\OrderDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\OrderDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T02:59:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240403093212_initialmigration16.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403093212_initialmigration16.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T09:32:12.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Order.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Order.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAiwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:36:20.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Store.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Store.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Store.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:26:17.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Data\\AppContext.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Data\\AppContext.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Data\\AppContext.cs",
+              "RelativeToolTip": "ShoppingApp\\Data\\AppContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:07:50.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderCompleteDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\OrderCompleteDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\OrderCompleteDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\OrderCompleteDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\OrderCompleteDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:37:56.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\PaymentDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\PaymentDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\PaymentDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\PaymentDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T15:30:20.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataController.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\DataController.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Controllers\\DataController.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\DataController.cs",
+              "RelativeToolTip": "ShoppingApp\\Controllers\\DataController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvw8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:04:16.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240403045503_initial-migration14.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403045503_initial-migration14.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403045503_initial-migration14.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403045503_initial-migration14.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403045503_initial-migration14.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T04:55:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240403053705_initial-migration15.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403053705_initial-migration15.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403053705_initial-migration15.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403053705_initial-migration15.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403053705_initial-migration15.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T05:37:05.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240403045201_initial-migration13.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403045201_initial-migration13.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T04:52:01.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StoreItem.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\StoreItem.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\StoreItem.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\StoreItem.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\StoreItem.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:27:47.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Item.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Item.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA/wBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:16:05.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CartPageDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\CartPageDisplayModel.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\DTOs\\CartPageDisplayModel.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\DTOs\\CartPageDisplayModel.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\DTOs\\CartPageDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T06:35:36.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Transaction.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Transaction.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:39:05.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240403025044_initial-migration12.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403025044_initial-migration12.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403025044_initial-migration12.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403025044_initial-migration12.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403025044_initial-migration12.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T02:50:44.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240403021817_initial-migration11.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403021817_initial-migration11.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403021817_initial-migration11.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403021817_initial-migration11.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403021817_initial-migration11.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T02:18:17.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20240403012700_initial-migration10.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403012700_initial-migration10.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240403012700_initial-migration10.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240403012700_initial-migration10.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240403012700_initial-migration10.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T01:27:00.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T04:07:39.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T08:06:16.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T08:14:25.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T02:37:14.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T02:28:17.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ShoppingApp\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ShoppingApp\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-31T02:36:39.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T02:37:08.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:45:14.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ShoppingApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:44:24.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "OrderType.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderType.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\OrderType.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderType.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\OrderType.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAawA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:45:25.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:38:15.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PayType.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\PayType.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\PayType.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\PayType.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\PayType.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T05:31:52.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:29:50.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240331004507_initial-migration9.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240331004507_initial-migration9.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240331004507_initial-migration9.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240331004507_initial-migration9.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240331004507_initial-migration9.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAMwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T00:45:07.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\OrderItem.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:37:18.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240330191041_initial-migration8.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330191041_initial-migration8.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240330191041_initial-migration8.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330191041_initial-migration8.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240330191041_initial-migration8.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:10:41.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240330094040_initial-migration7.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330094040_initial-migration7.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240330094040_initial-migration7.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330094040_initial-migration7.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240330094040_initial-migration7.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:40:40.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RepoUtility.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Repositories\\RepoUtility.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Repositories\\RepoUtility.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Repositories\\RepoUtility.cs",
+              "RelativeToolTip": "ShoppingApp\\Repositories\\RepoUtility.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T10:54:27.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Program.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Program.cs",
+              "RelativeToolTip": "ShoppingApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:15:08.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240328072826_initial-migration3.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328072826_initial-migration3.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240328072826_initial-migration3.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328072826_initial-migration3.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240328072826_initial-migration3.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:28:26.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\CartItem.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvwoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:31:59.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240330055107_initial-migration6.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330055107_initial-migration6.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240330055107_initial-migration6.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240330055107_initial-migration6.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240330055107_initial-migration6.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAIwKQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T05:51:07.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "ShoppingApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "ShoppingApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-30T04:02:16.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ShoppingApp\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:00:16.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\appsettings.json",
+              "RelativeToolTip": "ShoppingApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-28T05:52:46.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IRepoUtility.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Repositories\\IRepoUtility.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Repositories\\IRepoUtility.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Repositories\\IRepoUtility.cs",
+              "RelativeToolTip": "ShoppingApp\\Repositories\\IRepoUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:11:21.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240328070848_initial-migration.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328070848_initial-migration.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240328070848_initial-migration.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328070848_initial-migration.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240328070848_initial-migration.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:08:48.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240328094003_initial-migration4.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328094003_initial-migration4.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240328094003_initial-migration4.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328094003_initial-migration4.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240328094003_initial-migration4.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAlwA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T09:40:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240328165104_initial-migration5.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328165104_initial-migration5.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240328165104_initial-migration5.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328165104_initial-migration5.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240328165104_initial-migration5.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T16:51:04.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240328071203_initial-migration2.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328071203_initial-migration2.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Migrations\\20240328071203_initial-migration2.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Migrations\\20240328071203_initial-migration2.cs",
+              "RelativeToolTip": "ShoppingApp\\Migrations\\20240328071203_initial-migration2.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:12:03.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Platform.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Platform.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Platform.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Platform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:41:06.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Developer.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Developer.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Developer.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Developer.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Developer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T08:44:00.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Models\\Category.cs",
+              "RelativeToolTip": "ShoppingApp\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:24:19.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Constants\\Roles.cs",
+              "RelativeDocumentMoniker": "ShoppingApp\\Constants\\Roles.cs",
+              "ToolTip": "C:\\Users\\conno\\Documents\\C# prac\\ShoppApp2.0\\ShoppingApp\\ShoppingApp\\Constants\\Roles.cs",
+              "RelativeToolTip": "ShoppingApp\\Constants\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:13:15.891Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

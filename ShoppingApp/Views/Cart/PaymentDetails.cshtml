@@ -1,0 +1,81 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ShoppingApp.Models.DTOs.PaymentDisplayModel
+@{
+
+}
+<div style="width:90%;margin:auto" class="mt-2">
+<form>
+
+
+    <label class="col-form-label col-form-label-lg mt-4" for="cardNumber">Card Number</label>
+    <input class="form-control form-control-lg" type="text" maxlength="16" placeholder="enter your card number" id="cardNumber" name="cardNumber"
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+    <label class="col-form-label col-form-label-sm mt-4" for="securityNumber">Security Code</label>
+    <input class="form-control form-control-sm" type="number" maxlength="3" placeholder="enter your card security code" id="securityNumber" name="securityNumber"
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+    <label class="col-form-label col-form-label-lg mt-4" for="customerPhone">Phone Number</label>
+    <input class="form-control form-control-lg" type="number" maxlength="10" placeholder="enter your phone no" id="customerPhone" name="customerPhone"
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+    <label class="col-form-label col-form-label-lg mt-4" for="customerAddress">Address</label>
+    <input class="form-control form-control-lg" type="text" placeholder="enter your street address, suburb and city" id="customerAddress" name="customerAddress">
+
+    <label class="col-form-label col-form-label-sm mt-4" for="zipCode">ZipCode</label>
+    <input class="form-control form-control-sm" type="number" maxlength="4" placeholder="enter your zipcode" id="zipCode" name="zipCode"
+    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+    <div class="my-2">
+       
+        @if(Model.Order.OrderTypeId == 2)
+        {
+           <h5>Total:
+             $@(Model.TotalCost + 50)
+           </h5>
+                
+         }
+         else
+         {
+            <h5>
+               Total:
+               $@(Model.TotalCost)
+            </h5>
+         }
+             
+    </div>
+
+    <div class="my-2">
+            <button type="button" onclick="completeOrder()" class="btn btn-primary">Confirm Purchase</button>
+    </div>
+
+</form>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        async function completeOrder() {
+
+            
+            try {
+                var orderId = @Model.Order.Id;
+                var zipCode = document.querySelector("#zipCode").value;
+                var cardNumber = document.querySelector("#cardNumber").value;
+                var securityNumber = document.querySelector("#securityNumber").value;
+                var customerAddress = document.querySelector("#customerAddress").value;
+                var customerPhone = document.querySelector("#customerPhone").value;
+                var storeId = @Model.StoreId;
+                console.log(cardNumber);
+                window.location = `/Cart/OrderComplete?orderId=${orderId}&zipCode=${zipCode}&cardNumber=${cardNumber}&securityNumber=${securityNumber}&customerAddress=${customerAddress}&customerPhone=${customerPhone}&totalCost=${@Model.TotalCost}&storeId=${storeId}`;
+            }
+            catch (err) {
+                console.log(err);
+                
+            }
+
+        }
+
+    </script>
+}

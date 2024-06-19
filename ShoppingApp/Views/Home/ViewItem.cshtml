@@ -1,0 +1,67 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model ShoppingApp.Models.DTOs.ViewItemDisplayModel
+@{
+
+}
+<div class="d-flex bg-secondary">
+    <div>
+    @if (string.IsNullOrEmpty(Model.Item.Image))
+    {
+        <img style="width:600px;height:auto; padding: 20px;" src="/images/NoImage.webp" class="card-img-top" alt="...">
+    }
+    else
+    {
+            <img style="width:600px;height:auto; padding: 20px;" src="@Model.Item.Image" class="card-img-top" alt="...">
+    }
+    </div>
+    <div style="padding: 20px;">
+        <h1 style="font-weight: bold;">@Model.Item.ItemName</h1>
+        <br />
+        <br />
+        <br />
+        <h2 style="font-weight: bold;">$@Model.Item.Price</h2>
+        <hr />
+        @foreach (StoreItem storeItem in Model.StoreItems)
+        {
+            @if (storeItem.Quantity > 0 )
+            {
+                <p>In stock at @storeItem.Store.Location</p>
+                { Model.hasStoreStock = true; }
+            }
+        }
+        @if (!Model.hasStoreStock)
+        {
+            <p>Not in stock at any stores.</p>
+        }
+        <hr />
+        <p>Avaliable for delivery</p>
+        <hr />
+        <button type="button" onclick="add(@Model.Item.Id)" class="btn btn-primary">Add to cart</button>
+        <hr />
+        <h3 style="font-weight: bold;">Item Description</h3>
+        <hr />
+        <p>@Model.Item.Description</p>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        async function add(itemId) {
+
+            try {
+                var response = await fetch(`/Cart/AddItem?itemId=${itemId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+
+                }
+            }
+            catch (err) {
+                console.log(err);
+                window.location = "/Identity/Account/Login";
+            }
+
+        }
+    </script>
+}
